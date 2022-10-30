@@ -57,13 +57,8 @@ namespace Homework_1
         }
     }
 
-    class Check : Buy
+    static class Check
     {
-        public Check(Buy buying) : base(buying)
-        {
-            Show(buying);
-        }
-
         public static void Show(Buy buying)
         {
             Console.WriteLine(buying);
