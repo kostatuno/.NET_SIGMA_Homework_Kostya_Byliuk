@@ -19,6 +19,9 @@ namespace Homework_1
             Check.Show(purchase);
             Check.Show(purchase2);
             Check.Show(new Buy(new Product("Pizza", 6.99, 0.670), 4));
+
+            Check.Show(cake);
+            Check.Show(meal);
         }
     }
 }
