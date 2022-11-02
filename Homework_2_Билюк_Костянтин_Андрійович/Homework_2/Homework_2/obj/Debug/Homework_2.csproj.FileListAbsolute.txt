@@ -22,3 +22,11 @@ C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_2_Билюк 
 C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_2_Билюк Костянтин Андрійович\Homework_2\Homework_2\obj\Debug\Homework_2.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_2_Билюк Костянтин Андрійович\Homework_2\Homework_2\obj\Debug\Homework_2.exe
 C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_2_Билюк Костянтин Андрійович\Homework_2\Homework_2\obj\Debug\Homework_2.pdb
+D:\.NET Sigma CAMP\Homework_2_Билюк_Костянтин_Андрійович\Homework_2\Homework_2\bin\Debug\Homework_2.exe.config
+D:\.NET Sigma CAMP\Homework_2_Билюк_Костянтин_Андрійович\Homework_2\Homework_2\bin\Debug\Homework_2.exe
+D:\.NET Sigma CAMP\Homework_2_Билюк_Костянтин_Андрійович\Homework_2\Homework_2\bin\Debug\Homework_2.pdb
+D:\.NET Sigma CAMP\Homework_2_Билюк_Костянтин_Андрійович\Homework_2\Homework_2\obj\Debug\Homework_2.csproj.AssemblyReference.cache
+D:\.NET Sigma CAMP\Homework_2_Билюк_Костянтин_Андрійович\Homework_2\Homework_2\obj\Debug\Homework_2.csproj.SuggestedBindingRedirects.cache
+D:\.NET Sigma CAMP\Homework_2_Билюк_Костянтин_Андрійович\Homework_2\Homework_2\obj\Debug\Homework_2.csproj.CoreCompileInputs.cache
+D:\.NET Sigma CAMP\Homework_2_Билюк_Костянтин_Андрійович\Homework_2\Homework_2\obj\Debug\Homework_2.exe
+D:\.NET Sigma CAMP\Homework_2_Билюк_Костянтин_Андрійович\Homework_2\Homework_2\obj\Debug\Homework_2.pdb

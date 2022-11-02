@@ -1,0 +1,30 @@
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.exe
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.deps.json
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.runtimeconfig.json
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.dll
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.pdb
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.csproj.AssemblyReference.cache
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.AssemblyInfoInputs.cache
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.AssemblyInfo.cs
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.csproj.CoreCompileInputs.cache
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.dll
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\refint\Homework_3.dll
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.pdb
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.genruntimeconfig.cache
+D:\.NET Sigma CAMP\Homework_3_Билюк Костянтин Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\ref\Homework_3.dll
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.exe
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.deps.json
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.runtimeconfig.json
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.dll
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\bin\Debug\net6.0\Homework_3.pdb
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.csproj.AssemblyReference.cache
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.AssemblyInfoInputs.cache
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.AssemblyInfo.cs
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.csproj.CoreCompileInputs.cache
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.dll
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\refint\Homework_3.dll
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.pdb
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\Homework_3.genruntimeconfig.cache
+D:\.NET Sigma CAMP\Homework_3_Билюк_Костянтин_Андрійович\Homework_3\Homework_3\obj\Debug\net6.0\ref\Homework_3.dll

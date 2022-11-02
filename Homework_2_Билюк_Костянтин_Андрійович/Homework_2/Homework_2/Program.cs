@@ -12,7 +12,7 @@ namespace Homework_2
         static void Main(string[] args)
         {
             Tasks task = new Tasks();
-            //task.One(); //+ 
+            task.One(); //+ 
             //task.Two(); //+ 
             //task.Three(); //+
             //task.Four(); //-+
