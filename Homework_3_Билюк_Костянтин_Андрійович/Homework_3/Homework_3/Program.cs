@@ -26,7 +26,7 @@ namespace Homework_3
 
             /*var meatProducts = storage.MeatProducts();          // Мясні продукти з "storage"
             meatProducts.ChangePrices(110);                       // Змінили ціну
-            meatProducts.Print();                                 // Вивели на екран*/
+            meatProducts.Print();*/                                 // Вивели на екран
 
             //storage.ChangePrices(110);                  // Змінити ціни для всіх продуктів на певний відсоток
             //storage.Print();                            // Вивели на екран
@@ -51,6 +51,9 @@ namespace Homework_3
             /*Check.Show(cheese);
             Check.Show(pork);
             Check.Show(sugar);*/
+
+            /*Buy buying = new Buy(milk, milk, milk); // Покупка
+            Check.Show(buying);*/
         }
     }
 }

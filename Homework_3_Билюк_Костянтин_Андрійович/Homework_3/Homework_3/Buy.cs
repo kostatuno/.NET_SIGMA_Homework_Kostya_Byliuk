@@ -27,7 +27,7 @@ namespace Homework_3
             }
         }
 
-        public Buy(string name, double price, double weight, int count) 
+        public Buy(string name, double price, double weight, int count)
         {
             _purchases = new List<Product>();
             _purchases.Add(new Product(name, price, weight));
@@ -82,10 +82,10 @@ namespace Homework_3
             var str = new StringBuilder();
             for (int i = 0; i < _purchases.Count; i++)
             {
-                str.Append($"({i + 1}) {_purchases[i]}\n");
+                str.Append($"({i + 1}) {_purchases[i]}\n\n");
             }
 
-            str.Append($"\n\"Count = {Count}\"  \"FinalPrice {FinalPrice}$\",  \"FinalWeigth {FinalWeight}kg\"");
+            str.Append($"\"Count = {Count}\"  \"FinalPrice {FinalPrice}$\",  \"FinalWeigth {FinalWeight:0.###}kg\"");
             return str.ToString();
         }
 
