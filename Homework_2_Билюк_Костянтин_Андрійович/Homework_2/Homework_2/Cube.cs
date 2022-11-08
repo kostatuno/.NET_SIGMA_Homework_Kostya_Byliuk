@@ -38,7 +38,7 @@ namespace Homework_2
                 }
             }
         }
-
+// Цей метод мав би бути в іншому класі.
         public void Print()
         {
             Console.WriteLine("White(a cube): 1, Gray(a cavity): 0\n");
