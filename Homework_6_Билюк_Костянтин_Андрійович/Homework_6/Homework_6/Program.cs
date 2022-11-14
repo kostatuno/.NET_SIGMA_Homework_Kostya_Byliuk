@@ -4,16 +4,12 @@ using System.Runtime.ConstrainedExecution;
 
 namespace Homework_6
 {
-
+    /*
+     Намагався створити бд для роботи, але не вистачало знань поки що, тому довелось залишитись на співпраці з текстовим файлом.
+     Такі важливі класи як Customer та Extensions залишились в проекті з непрацюючою бд, на основну роботу з .txt не впливає
+     */
     class Program
     {
-        /*
-        Це мабудь найнеуспішніша із моіх домашніх робіт вам, мені так багато хотілось би пофіксити, але світло та 2 дні безуспішних вивчень entity framework вирішили по іншому
-        Чому мова за entity, тому що мені хотілось підключити базу даних та створити ці всі таблички у зручному форматі, на жаль у мене не вийшло, що і очевидно:), тому прийшлось щось
-        робити за півдня, як приклад - ось весь код. В мене обовязково вийде якось підключити бд, я впевнений в цьому. Не знаю чому я це пишу, мені потрібно було це прописати в коментарі:)
-        так як знаю, що все однозначно буде виходити, але не відразу. До роботи.  
-         */
-
         static void Main()
         {
 
@@ -33,13 +29,13 @@ namespace Homework_6
             Table table = new Table();
             table.CreateByTxtFile(quarterFileName[3]);
 
-            Accounting.PrintReport(table, fileNameResult);
-            Accounting.ApartmentInformation(table[2], fileNameResult); 
-            Accounting.FindTheMostArrears(table, fileNameResult);
-            Accounting.FindBadConsumers(table, fileNameResult); 
+            Accounting.PrintReport(table, fileNameResult);               // Звіт
+            Accounting.ApartmentInformation(table[2], fileNameResult); //   Інформація про квартиру
+            Accounting.FindTheMostArrears(table, fileNameResult); //        Інформація про квартиру з найбільшою заборгованістю
+            Accounting.FindBadConsumers(table, fileNameResult); //          Інформація про квартиру, яка не використовувала електроенергію
         }
 
-        public static DirectoryInfo GetEntryDirectory(string currentDirectory, int i = 0)
+        private static DirectoryInfo GetEntryDirectory(string currentDirectory, int i = 0)
         {
             var entryDirectory = Directory.GetParent(currentDirectory);
             if (i == 2) return entryDirectory;

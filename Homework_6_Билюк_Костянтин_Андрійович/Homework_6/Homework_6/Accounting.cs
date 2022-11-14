@@ -9,7 +9,6 @@ namespace Homework_6
 {
     public static class Accounting
     {
-        public const double UAH_PERE_KILOWATT = 1.44;
         public static void PrintReport(Table table, string pathResult)
         {
             var fileStream = new FileStream(pathResult, FileMode.Append);
@@ -25,10 +24,7 @@ namespace Homework_6
                     $"| \tПоказник за {table[0].TakingThirdMonth:MMMM}");
                 for (int i = 0; i < table.Length; i++)
                 {
-                    writer.WriteLine($"{table[i].ApartmentNumber}\t | \t{table[i].SurName}\t\t " +
-                        $"| \t{table[i].TakingFirstMonth:dd.MM.yy}\t\t\t | \t{table[i].FirstMonthIndicator}" +
-                        $"\t\t\t\t | \t{table[i].TakingSecondMonth:dd.MM.yy}\t\t\t | \t{table[i].SecondMonthIndicator}" +
-                        $"\t\t\t\t\t | \t{table[i].TakingThirdMonth:dd.MM.yy}\t\t\t | \t{table[i].ThirdMonthIndicator}");
+                    writer.WriteLine(table[i]);
                 }
                 writer.WriteLine();
             }
@@ -48,10 +44,7 @@ namespace Homework_6
                     $"| \tПоказник за {customer.TakingSecondMonth:MMMM}\t " +
                     $"| \tЗняття за {customer.TakingThirdMonth:MMMM}\t " +
                     $"| \tПоказник за {customer.TakingThirdMonth:MMMM}");
-                writer.WriteLine($"{customer.ApartmentNumber}\t | \t{customer.SurName}\t\t " +
-                        $"| \t{customer.TakingFirstMonth:dd.MM.yy}\t\t\t | \t{customer.FirstMonthIndicator}" +
-                        $"\t\t\t\t | \t{customer.TakingSecondMonth:dd.MM.yy}\t\t\t | \t{customer.SecondMonthIndicator}" +
-                        $"\t\t\t\t\t | \t{customer.TakingThirdMonth:dd.MM.yy}\t\t\t | \t{customer.ThirdMonthIndicator}");
+                writer.WriteLine(customer);
             }
             Console.WriteLine("Iнформацiя про квартиру: Надруковано\n");
         }
@@ -102,14 +95,11 @@ namespace Homework_6
                         table[i].SecondMonthIndicator == 0 ||
                         table[i].ThirdMonthIndicator == 0)
                     {
-                        writer.WriteLine($"{table[i].ApartmentNumber}\t | \t{table[i].SurName}\t\t " +
-                        $"| \t{table[i].TakingFirstMonth:dd.MM.yy}\t\t\t | \t{table[i].FirstMonthIndicator}" +
-                        $"\t\t\t\t | \t{table[i].TakingSecondMonth:dd.MM.yy}\t\t\t | \t{table[i].SecondMonthIndicator}" +
-                        $"\t\t\t\t\t | \t{table[i].TakingThirdMonth:dd.MM.yy}\t\t\t | \t{table[i].ThirdMonthIndicator}");
+                        writer.WriteLine(table[i]);
                     }
                 }
             }
-            Console.WriteLine("Iнформацiя про квартиру, яка не використовувала: Надруковано\n");
+            Console.WriteLine("Iнформацiя про квартиру, яка не використовувала електроенергiю: Надруковано\n");
         }
     }
 }

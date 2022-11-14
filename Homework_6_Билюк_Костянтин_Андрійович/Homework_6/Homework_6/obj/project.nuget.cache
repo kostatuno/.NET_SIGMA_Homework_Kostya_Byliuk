@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2B3KAaLWDWD6pbU7jjnU8Jvvpbl7GmdU/HXOthSt1JQ8S6PnSiCM5UBeuwA39x1vESl3KXBavYul8nGJDK5xiQ==",
+  "dgSpecHash": "hA3Q0LRF2imQJogupZNT2e1S3sEHbiMdqVPs9mB7dzepmS/g8q2USwH6SFLn+ZQMcD9Cmy9i/59OIUPOLAHCAA==",
   "success": true,
-  "projectFilePath": "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\Homework_6\\Homework_6.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Новая папка (2)\\Homework_6\\Homework_6\\Homework_6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",

@@ -57,3 +57,67 @@ D:\.NET Sigma CAMP\Homework_6_Билюк_Костянтин_Андрійович
 D:\.NET Sigma CAMP\Homework_6_Билюк_Костянтин_Андрійович\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.pdb
 D:\.NET Sigma CAMP\Homework_6_Билюк_Костянтин_Андрійович\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.genruntimeconfig.cache
 D:\.NET Sigma CAMP\Homework_6_Билюк_Костянтин_Андрійович\Homework_6\Homework_6\obj\Debug\net6.0\ref\Homework_6.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Homework_6.exe
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Homework_6.deps.json
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Homework_6.runtimeconfig.json
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Homework_6.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Homework_6.pdb
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.AssemblyInfoInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.AssemblyInfo.cs
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.csproj.CopyComplete
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\refint\Homework_6.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.pdb
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.genruntimeconfig.cache
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\obj\Debug\net6.0\ref\Homework_6.dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).deps.json
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).runtimeconfig.json
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).exe
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).dll
+C:\Users\ADMIN\OneDrive\Desktop\Новая папка (2)\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).pdb

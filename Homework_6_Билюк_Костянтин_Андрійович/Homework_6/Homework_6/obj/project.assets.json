@@ -512,6 +512,19 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "DataBase(not working correctly)/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataBase(not working correctly).dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataBase(not working correctly).dll": {}
+        }
       }
     }
   },
@@ -1174,10 +1187,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DataBase(not working correctly)/1.0.0": {
+      "type": "project",
+      "path": "../DataBase/DataBase(not working correctly).csproj",
+      "msbuildProject": "../DataBase/DataBase(not working correctly).csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DataBase(not working correctly) >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.0"
     ]
   },
@@ -1187,11 +1206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\Homework_6\\Homework_6.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Новая папка (2)\\Homework_6\\Homework_6\\Homework_6.csproj",
       "projectName": "Homework_6",
-      "projectPath": "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\Homework_6\\Homework_6.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Новая папка (2)\\Homework_6\\Homework_6\\Homework_6.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\Homework_6\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Новая папка (2)\\Homework_6\\Homework_6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1207,7 +1226,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Новая папка (2)\\Homework_6\\DataBase\\DataBase(not working correctly).csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Новая папка (2)\\Homework_6\\DataBase\\DataBase(not working correctly).csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -56,37 +56,56 @@ namespace Homework_4_2
             }
         }
 
-        public void LongestSubsequences()
+        public void TwoLongestSubsequences()
         {
-            var arr = new int[1];
             var list = new List<int>();
+            var firstList = new List<int>();
+            var secondList = new List<int>();
 
-            for (int i = 1; i < Length; i++)
+
+            for (int i = 0; i < Length; i++)
             {
-                
-                if (_arr[i - 1] + 1 == _arr[i])
+                if (i + 1 < Length && _arr[i] + 1 == _arr[i + 1])
                 {
-                    list.Add(_arr[i - 1]);
                     list.Add(_arr[i]);
                 }
-                else list.Clear();
-
-                if (list.Count >= arr.Length)
+                else if (list.Count > 0)
                 {
-                    arr = new int[list.Count];
-                    for (int j = 0; j < arr.Length; j++)
+                    list.Add(_arr[i]);
+                    if (firstList.Count < list.Count)
                     {
-                        arr[j] = list[j];
+                        firstList.Clear();
+                        firstList.AddRange(list);
                     }
-                    
+                    else if (list.Count <= firstList.Count && !firstList.Equals(list))
+                    {
+                        secondList.Clear();
+                        secondList.AddRange(list);
+                    }
+                    list.Clear();
                 }
             }
 
-            Console.Write("\n\nLongest subsequences: ");
-            foreach (var item in arr)
+            Console.Write("\n\nFirst subsequences: ");
+            foreach (var item in firstList)
             {
                 Console.Write(item + " ");
             }
+
+            
+
+            Console.Write("\nSecond subsequences: ");
+            foreach (var item in secondList)
+            {
+                Console.Write(item + " ");
+            }
+        }
+
+        private void Swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
         }
     }
 }
