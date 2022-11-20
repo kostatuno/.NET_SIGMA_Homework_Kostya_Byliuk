@@ -1,0 +1,5 @@
+D:\.NET Sigma CAMP\Homework_7_Билюк_Костянтин_Андрійович\Homework_7\Homework_7\obj\Debug\net6.0\Homework_7.csproj.AssemblyReference.cache
+D:\.NET Sigma CAMP\Homework_7_Билюк_Костянтин_Андрійович\Homework_7\Homework_7\obj\Debug\net6.0\Homework_7.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Sigma CAMP\Homework_7_Билюк_Костянтин_Андрійович\Homework_7\Homework_7\obj\Debug\net6.0\Homework_7.AssemblyInfoInputs.cache
+D:\.NET Sigma CAMP\Homework_7_Билюк_Костянтин_Андрійович\Homework_7\Homework_7\obj\Debug\net6.0\Homework_7.AssemblyInfo.cs
+D:\.NET Sigma CAMP\Homework_7_Билюк_Костянтин_Андрійович\Homework_7\Homework_7\obj\Debug\net6.0\Homework_7.csproj.CoreCompileInputs.cache

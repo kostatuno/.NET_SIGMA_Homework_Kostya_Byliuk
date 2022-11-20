@@ -29,7 +29,7 @@ namespace Homework_6
                 Customers.Add(new Customer(Convert.ToInt32(splitElements[0]), splitElements[1], splitElements[2],
                             splitElements[3].ToDateTime(), splitElements[4].ToDouble(),
                             splitElements[5].ToDateTime(), splitElements[6].ToDouble(),
-                            splitElements[7].ToDateTime(), splitElements[8].ToDouble()));
+                            splitElements[7].ToDateTime(), splitElements[8].ToDouble(), Convert.ToInt32(lines[0][10])));
             }
             Console.WriteLine($"[Таблиця заповнена. Елементiв: {lines.Length - 2}]\n"); ;
         }

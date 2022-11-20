@@ -24,11 +24,12 @@ namespace Homework_6
         public double? SecondMonthIndicator { get; set; }
         public DateTime? TakingThirdMonth { get; set; }
         public double? ThirdMonthIndicator { get; set; }
+        public int? Quarter { get; set; }
 
         public Customer(int apartmentNumber, string address, string surName,
             DateTime? takingFirstMonth, double? firstMonthIndicator,
             DateTime? takingSecondMonth, double? secondMonthIndicator,
-            DateTime? takingThirdMonth, double? thirdMonthIndicator)
+            DateTime? takingThirdMonth, double? thirdMonthIndicator, int? quarter)
         {
             ApartmentNumber = apartmentNumber;
             Address = address;
@@ -46,6 +47,7 @@ namespace Homework_6
             if (ThirdMonthIndicator != null)
                 AllKilowatt += ThirdMonthIndicator.Value;
             Arrears = AllKilowatt * UAH_PERE_KILOWATT;
+            Quarter = quarter;
         }
 
         public Customer()
