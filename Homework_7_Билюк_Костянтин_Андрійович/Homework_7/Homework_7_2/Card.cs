@@ -13,7 +13,7 @@ namespace Homework_7_2
         public int CheckSum
         {
             get { return _checkSum; }
-            private set
+            set
             {
                 if (value < 0)
                     throw new Exception("CheckSum shouldn't be a negative one");

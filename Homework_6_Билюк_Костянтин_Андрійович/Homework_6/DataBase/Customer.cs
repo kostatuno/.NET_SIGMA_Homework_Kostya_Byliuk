@@ -57,10 +57,10 @@ namespace Homework_6
 
         public override string ToString()
         {
-            return $"{ApartmentNumber}\t | \t{SurName}\t\t " +
-                        $"| \t{TakingFirstMonth:dd.MM.yy}\t\t\t | \t{FirstMonthIndicator,4}" +
-                        $"\t\t\t\t | \t{TakingSecondMonth:dd.MM.yy}\t\t\t | \t{SecondMonthIndicator,4}" +
-                        $"\t\t\t\t\t | \t{TakingThirdMonth:dd.MM.yy}\t\t\t | \t{ThirdMonthIndicator,4}";
+            return $"{ApartmentNumber, -5} | {SurName, -15} " +
+                        $"| {TakingFirstMonth, -20:dd.MM.yy} | {FirstMonthIndicator, -20}" +
+                        $" | {TakingSecondMonth, -20:dd.MM.yy} | {SecondMonthIndicator, -20}" +
+                        $" | {TakingThirdMonth, -20:dd.MM.yy} | {ThirdMonthIndicator, -20}";
         }
 
         public object Clone()

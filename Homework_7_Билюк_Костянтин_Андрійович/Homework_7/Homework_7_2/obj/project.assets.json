@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NET Sigma CAMP\\Homework_7_Билюк_Костянтин_Андрійович\\Homework_7\\Homework_7\\Homework_7_2.csproj",
+      "projectUniqueName": "D:\\.NET Sigma CAMP\\Homework_7_Билюк_Костянтин_Андрійович\\Homework_7\\Homework_7_2\\Homework_7_2.csproj",
       "projectName": "Homework_7_2",
-      "projectPath": "D:\\.NET Sigma CAMP\\Homework_7_Билюк_Костянтин_Андрійович\\Homework_7\\Homework_7\\Homework_7_2.csproj",
+      "projectPath": "D:\\.NET Sigma CAMP\\Homework_7_Билюк_Костянтин_Андрійович\\Homework_7\\Homework_7_2\\Homework_7_2.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\.NET Sigma CAMP\\Homework_7_Билюк_Костянтин_Андрійович\\Homework_7\\Homework_7\\obj\\",
+      "outputPath": "D:\\.NET Sigma CAMP\\Homework_7_Билюк_Костянтин_Андрійович\\Homework_7\\Homework_7_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

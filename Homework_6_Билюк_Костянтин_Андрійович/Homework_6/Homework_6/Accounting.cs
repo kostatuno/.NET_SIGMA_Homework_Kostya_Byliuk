@@ -15,13 +15,13 @@ namespace Homework_6
             using (var writer = new StreamWriter(fileStream))
             {
                 writer.WriteLine("\n[REPORT]");
-                writer.WriteLine($"Кв.\t | \tПрізвище\t" +
-                    $" | \tЗняття за {table[0].TakingFirstMonth:MMMM}\t | \t" +
-                    $"Показник за {table[0].TakingFirstMonth:MMMM}\t " +
-                    $"| \tЗняття за {table[0].TakingSecondMonth:MMMM}\t " +
-                    $"| \tПоказник за {table[0].TakingSecondMonth:MMMM}\t " +
-                    $"| \tЗняття за {table[0].TakingThirdMonth:MMMM}\t " +
-                    $"| \tПоказник за {table[0].TakingThirdMonth:MMMM}");
+                writer.WriteLine($"{"Кв.", -5} | {"Прізвище", -15}" +
+                    $" | {$"Зняття за {table[0].TakingFirstMonth:MMMM}", -20} | " +
+                    $"{$"Показник за {table[0].TakingFirstMonth:MMMM}", -20} " +
+                    $"| {$"Зняття за {table[0].TakingSecondMonth:MMMM}", -20} " +
+                    $"| {$"Показник за {table[0].TakingSecondMonth:MMMM}", -20} " +
+                    $"| {$"Зняття за {table[0].TakingThirdMonth:MMMM}", -20} " +
+                    $"| {$"Показник за {table[0].TakingThirdMonth:MMMM}", -20}");
                 for (int i = 0; i < table.Length; i++)
                 {
                     writer.WriteLine(table[i]);
@@ -37,13 +37,13 @@ namespace Homework_6
             using (var writer = new StreamWriter(fileStream))
             {
                 writer.WriteLine($"\n[Information about apartment {customer.ApartmentNumber}]");
-                writer.WriteLine($"Кв.\t | \tПрізвище\t" +
-                    $" | \tЗняття за {customer.TakingFirstMonth:MMMM}\t | \t" +
-                    $"Показник за {customer.TakingFirstMonth:MMMM}\t " +
-                    $"| \tЗняття за {customer.TakingSecondMonth:MMMM}\t " +
-                    $"| \tПоказник за {customer.TakingSecondMonth:MMMM}\t " +
-                    $"| \tЗняття за {customer.TakingThirdMonth:MMMM}\t " +
-                    $"| \tПоказник за {customer.TakingThirdMonth:MMMM}");
+                writer.WriteLine($"{"Кв.",-5} | {"Прізвище",-15}" +
+                    $" | {$"Зняття за {customer.TakingFirstMonth:MMMM}",-20} | " +
+                    $"{$"Показник за {customer.TakingFirstMonth:MMMM}",-20} " +
+                    $"| {$"Зняття за {customer.TakingSecondMonth:MMMM}",-20} " +
+                    $"| {$"Показник за {customer.TakingSecondMonth:MMMM}",-20} " +
+                    $"| {$"Зняття за {customer.TakingThirdMonth:MMMM}",-20} " +
+                    $"| {$"Показник за {customer.TakingThirdMonth:MMMM}",-20}");
                 writer.WriteLine(customer);
             }
             Console.WriteLine("Iнформацiя про квартиру: Надруковано\n");
@@ -70,8 +70,8 @@ namespace Homework_6
                     }
                 }
                 writer.WriteLine($"\n[The most arrears in {table[customer].ApartmentNumber} apartment]");
-                writer.WriteLine($"Прізвище\t | \tКв.\t | \tЗаборгованість (UAH)");
-                writer.WriteLine($"{table[customer].SurName}\t\t | \t{table[customer].ApartmentNumber}\t | \t{table[customer].Arrears:#.##}");
+                writer.WriteLine($"{"Прізвище", -15} | {"Кв.", -5} | {"Заборгованість (UAH)", -20}");
+                writer.WriteLine($"{table[customer].SurName, -15} | {table[customer].ApartmentNumber, -5} | {table[customer].Arrears, -20:#.##}");
             }
             Console.WriteLine("Iнформацiя про квартиру з найбiльшой заборгованiстю: Надруковано\n");
         }
@@ -82,13 +82,13 @@ namespace Homework_6
             using (var writer = new StreamWriter(fileStream))
             {
                 writer.WriteLine($"\n[Bad cunsomers]");
-                writer.WriteLine($"Кв.\t | \tПрізвище\t" +
-                    $" | \tЗняття за {table[0].TakingFirstMonth:MMMM}\t | \t" +
-                    $"Показник за {table[0].TakingFirstMonth:MMMM}\t " +
-                    $"| \tЗняття за {table[0].TakingSecondMonth:MMMM}\t " +
-                    $"| \tПоказник за {table[0].TakingSecondMonth:MMMM}\t " +
-                    $"| \tЗняття за {table[0].TakingThirdMonth:MMMM}\t " +
-                    $"| \tПоказник за {table[0].TakingThirdMonth:MMMM}");
+                writer.WriteLine($"{"Кв.",-5} | {"Прізвище",-15}" +
+                    $" | {$"Зняття за {table[0].TakingFirstMonth:MMMM}",-20} | " +
+                    $"{$"Показник за {table[0].TakingFirstMonth:MMMM}",-20} " +
+                    $"| {$"Зняття за {table[0].TakingSecondMonth:MMMM}",-20} " +
+                    $"| {$"Показник за {table[0].TakingSecondMonth:MMMM}",-20} " +
+                    $"| {$"Зняття за {table[0].TakingThirdMonth:MMMM}",-20} " +
+                    $"| {$"Показник за {table[0].TakingThirdMonth:MMMM}",-20}");
                 for (int i = 0; i < table.Length; i++)
                 {
                     if (table[i].FirstMonthIndicator == 0 ||

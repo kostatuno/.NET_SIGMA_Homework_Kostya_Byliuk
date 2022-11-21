@@ -7,6 +7,7 @@ using System.Text;
 using DataBase;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using System.IO;
 
 namespace Homework_6
 {
@@ -34,10 +35,30 @@ namespace Homework_6
             Console.WriteLine($"[Таблиця заповнена. Елементiв: {lines.Length - 2}]\n"); ;
         }
 
-        /*public void CreateByDb(ApplicationContext db)
+        public void CreateByDb(string[] fileNames)
         {
-        // Не зміг поки що реалізувати
-        }*/
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                foreach (var fileName in fileNames)
+                {
+                    var fileInfo = new FileInfo(fileName);
+                    var lines = File.ReadAllLines(fileName);
+                    for (int i = 2; i < lines.Length; i++)
+                    {
+                        var splitElements = lines[i].Trim().Split(" | ");
+                        var customer = new Customer(Convert.ToInt32(splitElements[0]), splitElements[1], splitElements[2],
+                                    splitElements[3].ToDateTime(), splitElements[4].ToDouble(),
+                                    splitElements[5].ToDateTime(), splitElements[6].ToDouble(),
+                                    splitElements[7].ToDateTime(), splitElements[8].ToDouble(), int.Parse(lines[0][9].ToString()));
+                        db.Customers.Add(customer);
+                        Customers.Add(customer);
+                    }
+                }
+
+                db.SaveChanges();
+                Console.WriteLine($"[Таблиця заповнена. Елементiв: {Customers.Count}]\n");
+            }
+        }
 
         public Table()
         {
