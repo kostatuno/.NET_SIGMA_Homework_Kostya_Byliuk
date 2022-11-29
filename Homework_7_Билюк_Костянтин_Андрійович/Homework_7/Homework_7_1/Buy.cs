@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace Homework_4_1
+namespace Homework_7_1
 {
     class Buy : Product
     {

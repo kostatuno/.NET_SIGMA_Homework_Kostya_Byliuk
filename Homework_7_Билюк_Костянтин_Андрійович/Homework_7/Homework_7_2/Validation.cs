@@ -75,10 +75,12 @@ namespace Homework_7_2
             {
                 result += Convert.ToInt32(card.Number[i].ToString());
             }
+
             for (int i = 0; i < numbers.Length; i++)
             {
                 result += numbers[i];
             }
+
             card.CheckSum = result;
             return result % 10 == 0 ? true : false;
         }

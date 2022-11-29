@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_4_1
+namespace Homework_7_1
 {
     enum TypeOfMeat
     {

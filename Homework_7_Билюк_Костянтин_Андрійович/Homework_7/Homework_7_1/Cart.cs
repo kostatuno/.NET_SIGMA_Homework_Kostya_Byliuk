@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_4_1
+namespace Homework_7_1
 {
     class Cart : IComparable, IComparer, IStorage
     {
@@ -31,7 +31,11 @@ namespace Homework_4_1
         public Buy this[int i]
         {
             get { return _purchases[i]; }
-            set { _purchases[i] = value; }
+            set 
+            {
+                if (i < 0) throw new ArgumentException("Index shouldn't be negative");
+                _purchases[i] = value; 
+            }
         }
 
         public Cart(List<Buy> purchases)

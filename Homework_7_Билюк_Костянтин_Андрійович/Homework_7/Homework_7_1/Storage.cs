@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -7,13 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_4_1
+namespace Homework_7_1
 {
     class Storage : IComparer, IComparable, IStorage
     {
         private double _totalWeight;
         private double _totalPrice;
-        private Product[] _products { get; set; }
+        public Product[] Products { get; set; }
         public int Length { get; }
 
         public double TotalWeight
@@ -32,20 +33,21 @@ namespace Homework_4_1
         {
             get 
             {
-                return _products[i];
+                return Products[i];
             }
             set 
             {
-                _products[i] = value;   
+                Products[i] = value;
+                UpdateСonclusion();
             }
         }
         
         public Storage(params Product[] products)
         {
-            _products = new Product[products.Length];
-            for (int i = 0; i < _products.Length; i++)
+            Products = new Product[products.Length];
+            for (int i = 0; i < Products.Length; i++)
             {
-                _products[i] = (Product)products[i].Clone();
+                Products[i] = (Product)products[i].Clone();
                 _totalPrice += products[i].Price;
                 _totalWeight += products[i].Weight;
             }
@@ -54,31 +56,9 @@ namespace Homework_4_1
 
         public Storage(int length)
         {
-            _products = new Product[length];
+            Products = new Product[length];
             Length = length;
-        }
-
-        public Storage MeatProducts()
-        {
-            int lengthMeatStorage = 0;
-            foreach (var product in _products)
-                if (product is Meat) lengthMeatStorage++;
-            var meatProducts = new Storage(lengthMeatStorage);
-            for (int i = 0, j = 0; i < this.Length; i++)
-            {
-                while (j < lengthMeatStorage)
-                {
-                    if (this[i] is Meat)
-                    {
-                        meatProducts[j] = (Product)this[i].Clone();
-                        j++;
-                        break;
-                    }
-                    break;
-                }
-            }
-            return meatProducts;
-        }
+        } 
 
         public void ChangePrices(double percentageValueOfAllPrices)
         {
@@ -98,24 +78,15 @@ namespace Homework_4_1
             {
                 return false;
             }
-
-            for (int i = 0; i < obj2.Length; i++)
+            else
             {
-                bool answer = false;
-                foreach (var product in _products)
+                if (this.Length != obj2.Length) return false;
+                for (int i = 0; i < Length; i++)
                 {
-                    if (product.Equals(obj2[i]))
-                    {
-                        answer = true;
-                        break;
-                    }
+                    if (!this[i].Equals(obj2[i])) return false;
                 }
-                if (!answer)
-                {
-                    return false;
-                }
+                return true;
             }
-            return true;
         }
 
         public override int GetHashCode()
@@ -130,8 +101,8 @@ namespace Homework_4_1
             var str = new StringBuilder();
             for (int i = 0; i < Length; i++)
                 str.Append($"{i+1}.{this[i].GetType().Name}:\n{this[i]}\n\n");
-            str.Append($"\n\n [ Total Price: {TotalPrice:0.##} {_products[0].Currency}, " +
-                $"Total Weight: {TotalWeight:0.000}{_products[0].WeightMeasurement} ]\n\n");
+            str.Append($"\n\n [ Total Price: {TotalPrice:0.##} {Products[0].Currency}, " +
+                $"Total Weight: {TotalWeight:0.000}{Products[0].WeightMeasurement} ]\n\n");
             return str.ToString();
         }
 
@@ -213,19 +184,19 @@ namespace Homework_4_1
 
         public void Sort(string fieldName)
         {
-            for (int i = 0; i < _products.Length; i++)
+            for (int i = 0; i < Products.Length; i++)
             {
-                for (int j = 0; j < _products.Length - 1; j++)
+                for (int j = 0; j < Products.Length - 1; j++)
                 {
                     switch (fieldName)
                     {
                         case "Weight":
-                            if (_products[j].Weight > _products[j + 1].Weight)
-                                Swap(ref _products[j + 1], ref _products[j]);
+                            if (Products[j].Weight > Products[j + 1].Weight)
+                                Swap(ref Products[j + 1], ref Products[j]);
                             break;
                         case "Price":
-                            if (_products[j].Price > _products[j + 1].Price)
-                                Swap(ref _products[j + 1], ref _products[j]);
+                            if (Products[j].Price > Products[j + 1].Price)
+                                Swap(ref Products[j + 1], ref Products[j]);
                             break;
                         default:
                             break;
@@ -250,19 +221,7 @@ namespace Homework_4_1
             {
                 return 1;
             }
-
-            int c1 = 0, c2 = 0;
-
-            for (int i = 0; i < Length; i++)
-            {
-                if (this[i] != null) c1++;                
-            }
-            
-            for (int i = 0; i < obj2.Length; i++)
-            {
-                if (obj2[i] != null) c2++;
-            }
-            return c1.CompareTo(c2);
+            return TotalPrice.CompareTo(obj2.TotalPrice);
         }
 
         private void TryAgain(string question)
@@ -283,8 +242,9 @@ namespace Homework_4_1
         {
             _totalPrice = 0;
             _totalWeight = 0;
-            foreach (var product in _products)
+            foreach (var product in Products)
             {
+                if (product == null) continue;
                 _totalPrice += product.Price;
                 _totalWeight += product.Weight;
             }

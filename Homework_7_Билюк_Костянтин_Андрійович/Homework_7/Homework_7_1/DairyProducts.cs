@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_4_1
+namespace Homework_7_1
 {
     class DairyProducts : Product
     {
@@ -65,7 +65,7 @@ namespace Homework_4_1
 
         public override int GetHashCode()
         {
-            return (base.GetHashCode() << 2) ^ Convert.ToInt32(Expiration);
+            return HashCode.Combine(Expiration + base.GetHashCode());
         }
     }
 }

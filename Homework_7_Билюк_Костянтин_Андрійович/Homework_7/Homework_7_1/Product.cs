@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Collections;
 
-namespace Homework_4_1
+namespace Homework_7_1
 {
     class Product : ICloneable, IComparable
     {
@@ -159,7 +159,7 @@ namespace Homework_4_1
 
         public override int GetHashCode()
         {
-            return (base.GetHashCode() << 2) ^ Convert.ToInt32(Price);
+            return HashCode.Combine(Price, Weight);
         }
 
         public object Clone()

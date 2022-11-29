@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Homework_4_1
+namespace Homework_7_1
 {
     class Program
     {
@@ -22,16 +22,20 @@ namespace Homework_4_1
             
             
             Storage storageA = new Storage(milk, sourСream, chicken, cheese);
-            Storage storageA2 = new Storage(3);
+            Storage storageA2 = new Storage(4);
+            storageA2[0] = milk;
+            storageA2[1] = sourСream;
+            storageA2[2] = chicken;
+            storageA2[3] = cheese;
 
-            Storage storageBС = new Storage(milk, sourСream, chicken, cheese);
-            Storage storageBС2 = new Storage(sourСream, cheese, chicken, milk);
+            Console.WriteLine(storageA.CompareTo(storageA2)); // 0
 
-            Console.WriteLine(storageA.CompareTo(storageA2)); // a           
-            Console.WriteLine(storageBС.Equals(storageBС2)); // b, с                 
+            Storage storageBC = new Storage(milk, sourСream, mutton, chicken, mutton, seaSugar, milk, mutton, mutton);
+            Storage storageBC2 = new Storage(sourСream, cheese, chicken, milk, milk, seaSugar, mutton, mutton, mutton);
+
+            StorageManager.Print(StorageManager.Differ(storageBC, storageBC2)); // a)
+            StorageManager.Print(StorageManager.JointProducts(storageBC, storageBC2)); // b)
+            StorageManager.Print(StorageManager.JointProductsWithoutRepeats(storageBC, storageBC2)); // c)
         }
-
-        // CompareTo повертає порівняння, яке перевіряється к-стю товарів в складі.
-        // Equal дізнається, чи склади рівні в контексті товарів, незалежно від порядку іх зберігання 
     }
 }
