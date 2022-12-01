@@ -18,7 +18,7 @@ namespace Homework_6
             get { return (uint)Customers.Count; }
         }
 
-        public List<Customer> Customers = new List<Customer>();
+        public List<Customer> Customers { get; set; }
         public void CreateByTxtFile(string path)
         {
             var fileInfo = new FileInfo(path);
@@ -32,7 +32,7 @@ namespace Homework_6
                             splitElements[5].ToDateTime(), splitElements[6].ToDouble(),
                             splitElements[7].ToDateTime(), splitElements[8].ToDouble(), Convert.ToInt32(lines[0][10])));
             }
-            Console.WriteLine($"[Таблиця заповнена. Елементiв: {lines.Length - 2}]\n"); ;
+            Console.WriteLine($"[Таблиця заповнена. Елементiв: {lines.Length - 2}]\n"); 
         }
 
         public void CreateByDb(string[] fileNames)
@@ -62,6 +62,7 @@ namespace Homework_6
 
         public Table()
         {
+            Customers = new List<Customer>();
             Console.WriteLine("[Ви створили пусту таблицю]\n");
         }
 

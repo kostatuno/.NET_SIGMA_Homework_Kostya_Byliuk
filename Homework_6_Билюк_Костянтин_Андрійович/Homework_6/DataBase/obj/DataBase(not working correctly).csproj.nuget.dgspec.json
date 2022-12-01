@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\OneDrive\\Desktop\\commit\\Homework_6\\DataBase\\DataBase(not working correctly).csproj": {}
+    "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\DataBase\\DataBase(not working correctly).csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\OneDrive\\Desktop\\commit\\Homework_6\\DataBase\\DataBase(not working correctly).csproj": {
+    "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\DataBase\\DataBase(not working correctly).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\commit\\Homework_6\\DataBase\\DataBase(not working correctly).csproj",
+        "projectUniqueName": "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\DataBase\\DataBase(not working correctly).csproj",
         "projectName": "DataBase(not working correctly)",
-        "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\commit\\Homework_6\\DataBase\\DataBase(not working correctly).csproj",
+        "projectPath": "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\DataBase\\DataBase(not working correctly).csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\commit\\Homework_6\\DataBase\\obj\\",
+        "outputPath": "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

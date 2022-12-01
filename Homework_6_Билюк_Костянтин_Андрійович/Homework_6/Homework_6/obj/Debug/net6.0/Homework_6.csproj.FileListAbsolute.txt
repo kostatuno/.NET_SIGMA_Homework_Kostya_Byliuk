@@ -185,3 +185,8 @@ C:\Users\ADMIN\OneDrive\Desktop\commit\Homework_6\Homework_6\obj\Debug\net6.0\re
 C:\Users\ADMIN\OneDrive\Desktop\commit\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.pdb
 C:\Users\ADMIN\OneDrive\Desktop\commit\Homework_6\Homework_6\obj\Debug\net6.0\Homework_6.genruntimeconfig.cache
 C:\Users\ADMIN\OneDrive\Desktop\commit\Homework_6\Homework_6\obj\Debug\net6.0\ref\Homework_6.dll
+D:\.NET Sigma CAMP\Homework_6_Билюк_Костянтин_Андрійович\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).deps.json
+D:\.NET Sigma CAMP\Homework_6_Билюк_Костянтин_Андрійович\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).runtimeconfig.json
+D:\.NET Sigma CAMP\Homework_6_Билюк_Костянтин_Андрійович\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).exe
+D:\.NET Sigma CAMP\Homework_6_Билюк_Костянтин_Андрійович\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).dll
+D:\.NET Sigma CAMP\Homework_6_Билюк_Костянтин_Андрійович\Homework_6\Homework_6\bin\Debug\net6.0\DataBase(not working correctly).pdb

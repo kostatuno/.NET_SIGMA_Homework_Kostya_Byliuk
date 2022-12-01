@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oOI9JAJa8b5W35JLGLLIuDJNQpwDuaX4Q1Xymr3NszsJWYShzarQBIAmDLGTDVuz6OVk2Af7YzVwi/FCduQLeg==",
+  "dgSpecHash": "UWXGOc+NwDTAw9bEGr3X+Pb8ej/xM6YyhUZwa4tCCB1CmIAxg7sXbisC79fV07ShFwcw73IcQYswYG7cYP06GA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\commit\\Homework_6\\DataBase\\DataBase(not working correctly).csproj",
+  "projectFilePath": "D:\\.NET Sigma CAMP\\Homework_6_Билюк_Костянтин_Андрійович\\Homework_6\\DataBase\\DataBase(not working correctly).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
