@@ -1,0 +1,15 @@
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\bin\Debug\net6.0\Homework_8.exe
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\bin\Debug\net6.0\Homework_8.deps.json
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\bin\Debug\net6.0\Homework_8.runtimeconfig.json
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\bin\Debug\net6.0\Homework_8.dll
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\bin\Debug\net6.0\Homework_8.pdb
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\Homework_8.csproj.AssemblyReference.cache
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\Homework_8.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\Homework_8.AssemblyInfoInputs.cache
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\Homework_8.AssemblyInfo.cs
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\Homework_8.csproj.CoreCompileInputs.cache
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\Homework_8.dll
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\refint\Homework_8.dll
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\Homework_8.pdb
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\Homework_8.genruntimeconfig.cache
+D:\.NET Sigma CAMP\Homework_8_Билюк_Костянтин_Андрійович\Homework_8\obj\Debug\net6.0\ref\Homework_8.dll

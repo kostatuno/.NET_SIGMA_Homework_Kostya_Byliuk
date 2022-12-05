@@ -192,11 +192,11 @@ namespace Homework_7_1
                     {
                         case "Weight":
                             if (Products[j].Weight > Products[j + 1].Weight)
-                                Swap(ref Products[j + 1], ref Products[j]);
+                                (Products[j + 1], Products[j]) = (Products[j], Products[j+1]);
                             break;
                         case "Price":
                             if (Products[j].Price > Products[j + 1].Price)
-                                Swap(ref Products[j + 1], ref Products[j]);
+                                (Products[j + 1], Products[j]) = (Products[j], Products[j+1]);
                             break;
                         default:
                             break;
@@ -229,13 +229,6 @@ namespace Homework_7_1
             Console.SetCursorPosition(0, Console.CursorTop - 1);
             Console.WriteLine("Incorrect input. Try again");
             Console.WriteLine(question);
-        }
-
-        private void Swap<T> (ref T a, ref T b)
-        {
-            T temp = a;
-            a = b;
-            b = temp;
         }
 
         private void UpdateСonclusion()
