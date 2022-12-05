@@ -262,7 +262,7 @@ namespace Homework_8
             }
         }
 
-        public void MakeTheOrder(string fileOrder, string resultFilePath)
+        public void MakeTheOrder(string fileOrder, string resultFilePath) // Трішкі міг попупати з суміжністю, але загалом працює
         {
             var firmWithOrders = StorageManager.ReadOrdersFrom(fileOrder);
 
@@ -274,11 +274,23 @@ namespace Homework_8
                     answer = false;
                     foreach (var product in AmountOfProducts)
                     {
-                        if (orderProduct.Equals(product.Key)
+                        if (orderProduct.Equals(product)
                             && product.Value >= orderProduct.Count)
                         {
                             answer = true;
                             break;
+                        }
+                        else if (product.Key.Compatibility.Count != 0)
+                        {
+                            foreach (var value in product.Key.Compatibility)
+                            {
+                                var producerAndName = value.Split(":");
+                                if (orderProduct.Equals(new Product(producerAndName[1], producerAndName[0])))
+                                {
+                                    answer = true;
+                                    break;
+                                }
+                            }
                         }
                     }
                     if (!answer)
@@ -308,5 +320,26 @@ namespace Homework_8
         public void RemoveAt(int index) => Products.RemoveAt(index);
         public void Remove(Product product) => Products.Remove(product);
         public void Add(Product product) => Products.Add(product);
+
+        public void IdentifyСompatibilityForProducts(string fileWithRelatedProducts)
+        {
+            var file = new FileInfo(fileWithRelatedProducts);
+            var lines = File.ReadAllLines(fileWithRelatedProducts);
+
+            for (int i = 0; i < lines.Length; i++)
+            {
+                var elements = lines[i].Split(new string[] { "-", ","}, StringSplitOptions.None);
+                foreach (var product in AmountOfProducts)
+                {
+                    if (elements[0] == product.Key.Name)
+                    {
+                        for (int j = 1; j < elements.Length; j++)
+                        {
+                            product.Key.Compatibility.Add(elements[j]);
+                        }
+                    }
+                }
+            }
+        }
     }
 }

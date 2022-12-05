@@ -11,8 +11,9 @@ namespace Homework_8
 {
     class Product : ICloneable, IComparable
     {
-        public string Producer { get; }
-        public string Name { get; }
+        public List<string> Compatibility = new List<string>();
+        public string Producer { get; private set; }
+        public string Name { get; private set; }
         private double _price;
         private double _weight;
         public double Price
@@ -34,7 +35,7 @@ namespace Homework_8
             get { return _weight; }
             set
             {
-                if (value <= 0)
+                if (value < 0)
                     throw new ArgumentException("Weight should be a positive number");
                 _weight = Math.Round(value, 3);
             }
@@ -50,7 +51,7 @@ namespace Homework_8
             WeightMeasurement = product.WeightMeasurement;
         }
 
-        public Product(string producer, string name, double price, double weight,
+        public Product(string producer, string name, double price = 0, double weight = 0,
             Currency currency = Currency.USD, WeightMeasurement measurementW = WeightMeasurement.kg)
         {
             Producer = producer;
@@ -178,5 +179,11 @@ namespace Homework_8
             }
             return _price.CompareTo(obj2._price);
         }
+
+        /*public void ChangeProducerAndName(string producer, string name)
+        {
+            Producer = producer;
+            Name = name;
+        }*/
     }
 }
