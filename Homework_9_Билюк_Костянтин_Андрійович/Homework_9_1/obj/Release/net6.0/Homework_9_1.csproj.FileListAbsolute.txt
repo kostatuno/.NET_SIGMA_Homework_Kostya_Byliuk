@@ -1,0 +1,15 @@
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\Homework_9_1.csproj.AssemblyReference.cache
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\Homework_9_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\Homework_9_1.AssemblyInfoInputs.cache
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\Homework_9_1.AssemblyInfo.cs
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\Homework_9_1.csproj.CoreCompileInputs.cache
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\bin\Release\net6.0\Homework_9_1.exe
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\bin\Release\net6.0\Homework_9_1.deps.json
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\bin\Release\net6.0\Homework_9_1.runtimeconfig.json
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\bin\Release\net6.0\Homework_9_1.dll
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\bin\Release\net6.0\Homework_9_1.pdb
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\Homework_9_1.dll
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\refint\Homework_9_1.dll
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\Homework_9_1.pdb
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\Homework_9_1.genruntimeconfig.cache
+D:\.NET Sigma CAMP\Homework_9_Билюк_Костянтин_Андрійович\Homework_9_1\obj\Release\net6.0\ref\Homework_9_1.dll
