@@ -1,4 +1,4 @@
-ï»¿using Homework_15.Models;
+using Homework_15.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -13,11 +13,12 @@ namespace Homework_15.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Cinema> builder)
         {
-            builder.HasData(new Cinema(1, "GoodGood", "Ð›ÑƒÐ³Ð°Ð½ÑÑŒÐº, Ð²ÑƒÐ». ÐŸÐ¸Ñ€Ð¾Ð³Ð¾Ð²Ð° 12"),
-                new Cinema(2, "ValueHappy", "ÐšÐ¸Ñ—Ð², Ð¿Ñ€Ð¾ÑÐ¿. Ð¤Ñ–Ð·ÐºÑƒÐ»ÑŒÑ‚ÑƒÑ€Ð¸, 40"),
-                new Cinema(3, "ViewOfKyiv", "Ð—Ð°Ð¿Ð¾Ñ€Ñ–Ð¶Ð¶Ñ, Ð¿Ð». Ð¤Ñ–Ð·ÐºÑƒÐ»ÑŒÑ‚ÑƒÑ€ 55"),
-                new Cinema(4, "DeepView", "Ð—Ð°Ð¿Ð¾Ñ€Ñ–Ð¶Ð¶Ñ, Ð¿Ð». Ð¤Ñ–Ð·ÐºÑƒÐ»ÑŒÑ‚ÑƒÑ€ 51"),
-                new Cinema(5, "Barabash", "ÐžÐ´ÐµÑÐ°, Ð¿Ð». Ð’Ð¾Ð»Ð¾Ð´Ð¸Ð¼Ð¸Ñ€ÑÑŒÐºÐ° 12"));
+            builder.HasData(new Cinema("GoodGood", "Ëóãàíñüê, âóë. Ïèðîãîâà 12") { Id = 1 },
+                new Cinema("ValueHappy", "Êè¿â, ïðîñï. Ô³çêóëüòóðè, 40") { Id = 2 },
+                new Cinema("ViewOfKyiv", "Çàïîð³ææÿ, ïë. Ô³çêóëüòóð 55") { Id = 3 },
+                new Cinema("DeepView", "Æèòîìèð, âóë. Ïðîïàùà 54") { Id = 4 },
+                new Cinema("Barabash", "Îäåñà, ïë. Âîëîäèìèðñüêà 12") { Id = 5 });
+            builder.HasAlternateKey(b => b.Address);
         }
     }
 }

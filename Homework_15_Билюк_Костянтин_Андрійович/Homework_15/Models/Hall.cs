@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using System;
 using System.Collections.Generic;
@@ -17,9 +17,12 @@ namespace Homework_15.Models
         public int CinemaId { get; set; }
         public Cinema? Cinema { get; set; }
 
-        public Hall(int id, string name, int cinemaId)
+        public Hall()
         {
-            Id = id;
+        }
+
+        public Hall(string name, int cinemaId)
+        {
             Name = name;
             CinemaId = cinemaId;
         }

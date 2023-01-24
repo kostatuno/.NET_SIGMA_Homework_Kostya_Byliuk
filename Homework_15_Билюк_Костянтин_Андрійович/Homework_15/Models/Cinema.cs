@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,13 +10,21 @@ namespace Homework_15.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Address { get; set; }
+        public string? Address { get; set; }
 
-        public Cinema(int id, string name, string address)
+        public Cinema()
         {
-            Id = id;
+        }
+
+        public Cinema(string name, string address)
+        {
             Name = name;
             Address = address;
+        }
+
+        public override string ToString()
+        {
+            return $"Id:{Id}, Name:{Name}, Address:{Address}";
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -11,16 +11,17 @@ namespace Homework_15.Models
     public class User
     {
         public int Id { get; set; }
-        [MaxLength(20)]
-        public string? FirstName { get; set; }
-        [MaxLength(20)]
-        public string? LastName { get; set; }
-        [MaxLength(20)] 
+        public string FullName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public string? PhoneNumber { get; set; }
 
-        public User(int id, string? firstName, string? lastName, string? phoneNumber)
+        public User()
         {
-            Id = id;
+        }
+
+        public User(string firstName, string lastName, string? phoneNumber)
+        {
             FirstName = firstName;
             LastName = lastName;
             PhoneNumber = phoneNumber;

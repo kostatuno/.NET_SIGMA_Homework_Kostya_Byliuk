@@ -1,5 +1,8 @@
 ﻿using Homework_15.Data;
 using Homework_15.Models;
+using System.Collections.Generic;
+using System.Data;
+using System.Globalization;
 
 namespace Homework_15
 {
@@ -7,10 +10,17 @@ namespace Homework_15
     {
         static void Main(string[] args)
         {
-            using (var db = new ApplicationDbContext())
-            {
-                Console.WriteLine("there's connection with db");
-            }       
+            var tasks = new TasksNetworkCinemaDb();
+            
+            //tasks.AllShowtimesCurrentWeak();
+
+            //tasks.NonBookedSeats();
+
+            //tasks.AllMoneyEarnedByEachMovie();
+
+            //tasks.Top3UsersWhoSpentMostMoneyInTheSpecifiedDates(DateTime.Now, DateTime.Now);
+
+            //tasks.NoActiveLastWeekCinemas();
         }
     }
 }

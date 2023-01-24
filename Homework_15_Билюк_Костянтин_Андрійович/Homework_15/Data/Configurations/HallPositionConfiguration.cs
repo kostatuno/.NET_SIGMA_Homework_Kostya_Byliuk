@@ -1,4 +1,4 @@
-﻿using Homework_15.Models;
+using Homework_15.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -13,13 +13,16 @@ namespace Homework_15.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<HallPosition> builder)
         {
-            builder.HasData(new HallPosition(1, 12, 1),
-                new HallPosition(2, 15, 1),
-                new HallPosition(3, 8, 2),
-                new HallPosition(4, 10, 3),
-                new HallPosition(5, 19, 3),
-                new HallPosition(6, 9, 1),
-                new HallPosition(7, 7, 3));
+            builder.HasData(new HallPosition(12, 2) { Id = 1 },
+                new HallPosition(9, 2) { Id = 2 },
+                new HallPosition(8, 2) { Id = 3 },
+                new HallPosition(10, 3) { Id = 4 },
+                new HallPosition(11, 3) { Id = 5 },
+                new HallPosition(12, 3) { Id = 6 },
+                new HallPosition(13, 3) { Id = 7 },
+                new HallPosition(13, 1) { Id = 8 },
+                new HallPosition(14, 1) { Id = 9 },
+                new HallPosition(15, 1) { Id = 10 });
         }
     }
 }

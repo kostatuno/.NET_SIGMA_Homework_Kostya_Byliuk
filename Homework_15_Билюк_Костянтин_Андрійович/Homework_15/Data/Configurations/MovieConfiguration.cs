@@ -1,4 +1,4 @@
-﻿using Homework_15.Models;
+using Homework_15.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -13,10 +13,11 @@ namespace Homework_15.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Movie> builder)
         {
-            builder.HasData(new Movie(1, "War and Peace"),
-                new Movie(2, "Green book"),
-                new Movie(3, "Bullet Train"),
-                new Movie(4, "Black Adam"));
+            builder.HasData(new Movie("War and Peace") { Id = 1 },
+                new Movie("Green book") { Id = 2 },
+                new Movie("Bullet Train") { Id = 3 },
+                new Movie("Black Adam") { Id = 4 });
+            builder.HasAlternateKey(m => m.Name);
         }
     }
 }

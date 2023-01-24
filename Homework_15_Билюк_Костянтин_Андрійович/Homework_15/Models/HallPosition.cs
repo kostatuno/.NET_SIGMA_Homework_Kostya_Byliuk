@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -11,14 +11,17 @@ namespace Homework_15.Models
     public class HallPosition
     {
         public int Id { get; set; }
-        public int? PlaceNumber { get; set; }
+        public int PlaceNumber { get; set; }
 
         public int HallId { get; set; }
         public Hall? Hall { get; set; }
 
-        public HallPosition(int id, int? placeNumber, int hallId)
+        public HallPosition()
         {
-            Id = id;
+        }
+
+        public HallPosition(int placeNumber, int hallId)
+        {
             PlaceNumber = placeNumber;
             HallId = hallId;
         }

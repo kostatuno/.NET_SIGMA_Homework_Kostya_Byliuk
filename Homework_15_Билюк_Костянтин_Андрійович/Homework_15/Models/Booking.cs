@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,9 @@ namespace Homework_15.Models
     {
         public int Id { get; set; }
         public decimal Price { get; set; }
-        public int PlaceNumber { get; set; }
+
+        public int HallPositionId { get; set; }
+        public HallPosition? HallPosition { get; set; }
 
         public int UserId { get; set; }
         public User? User { get; set; }
@@ -18,11 +21,14 @@ namespace Homework_15.Models
         public int ShowtimeId { get; set; }
         public Showtime? Showtime { get; set; }
 
-        public Booking(int id, decimal price, int placeNumber, int userId, int showtimeId)
+        public Booking()
         {
-            Id = id;
+        }
+
+        public Booking(decimal price, int hallPositionId, int userId, int showtimeId)
+        {
             Price = price;
-            PlaceNumber = placeNumber;
+            HallPositionId = hallPositionId;
             UserId = userId;
             ShowtimeId = showtimeId;
         }

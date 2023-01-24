@@ -1,4 +1,4 @@
-﻿using Homework_15.Models;
+using Homework_15.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -13,13 +13,19 @@ namespace Homework_15.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.HasData(new User(1, "Antom", "Pavlenko", "0978189212"),
-                new User(2, "Tom", "Bazylui", "0918989412"),
-                new User(3, "Yordan", "Volyy", "0671284712"),
-                new User(4, "Oleksiy", "Novych", "0728912112"),
-                new User(5, "Grugoriy", "Pavlenko", "0681182592"),
-                new User(6, "Ostap", "Sovok", "0978123456"),
-                new User(7, "Dmytro", "Vinyk", "0959981232"));
+            builder.HasData(new User("Antom", "Pavlenko", "0978189212") { Id = 1 },
+                new User("Tom", "Bazylui", "0918989412") { Id = 2 },
+                new User("Yordan", "Volyy", "0671284712") { Id = 3 },
+                new User("Oleksiy", "Novych", "0728912112") { Id = 4 },
+                new User("Grugoriy", "Pavlenko", "0681182592") { Id = 5 },
+                new User("Ostap", "Sovok", "0978123456") { Id = 6 },
+                new User("Dmytro", "Vinyk", "0959981232") { Id = 7 });
+            builder.Property(p => p.FirstName).HasMaxLength(20);
+            builder.Property(p => p.LastName).HasMaxLength(20);
+            builder.Property(p => p.PhoneNumber).HasMaxLength(20);
+            builder.HasAlternateKey(u => u.PhoneNumber);
+            builder.Ignore(p => p.FullName);
+            builder.HasCheckConstraint("PhoneNumber", "PhoneNumber LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'");
         }
     }
 }

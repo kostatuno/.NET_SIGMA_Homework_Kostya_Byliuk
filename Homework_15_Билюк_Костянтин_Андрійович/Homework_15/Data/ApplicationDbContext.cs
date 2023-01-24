@@ -1,10 +1,11 @@
-﻿using Homework_15.Data.Configurations;
+using Homework_15.Data.Configurations;
 using Homework_15.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,11 +36,11 @@ namespace Homework_15.Data
         {
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new MovieConfiguration());
+            modelBuilder.ApplyConfiguration(new CinemaConfiguration());
             modelBuilder.ApplyConfiguration(new ShowtimeConfiguration());
             modelBuilder.ApplyConfiguration(new BookingConfiguration());
             modelBuilder.ApplyConfiguration(new HallConfiguration());
             modelBuilder.ApplyConfiguration(new HallPositionConfiguration());
-            modelBuilder.ApplyConfiguration(new CinemaConfiguration());
         }
     }
 }
