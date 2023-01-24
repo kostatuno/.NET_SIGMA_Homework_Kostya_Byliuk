@@ -31,7 +31,7 @@ namespace Homework_15.Data
             optionsBuilder.UseSqlServer("Server=DESKTOP-3PNIESA\\SQLEXPRESS; Database = NetworkCinema; TrustServerCertificate=True; Trusted_Connection = True;");
         }
 
-        /*protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new MovieConfiguration());
@@ -39,6 +39,7 @@ namespace Homework_15.Data
             modelBuilder.ApplyConfiguration(new BookingConfiguration());
             modelBuilder.ApplyConfiguration(new HallConfiguration());
             modelBuilder.ApplyConfiguration(new HallPositionConfiguration());
-        }*/
+            modelBuilder.ApplyConfiguration(new CinemaConfiguration());
+        }
     }
 }

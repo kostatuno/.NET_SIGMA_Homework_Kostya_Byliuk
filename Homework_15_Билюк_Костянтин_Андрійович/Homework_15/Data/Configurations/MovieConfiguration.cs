@@ -13,7 +13,10 @@ namespace Homework_15.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Movie> builder)
         {
-            throw new NotImplementedException();
+            builder.HasData(new Movie(1, "War and Peace"),
+                new Movie(2, "Green book"),
+                new Movie(3, "Bullet Train"),
+                new Movie(4, "Black Adam"));
         }
     }
 }

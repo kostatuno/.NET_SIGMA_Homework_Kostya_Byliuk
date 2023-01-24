@@ -13,7 +13,13 @@ namespace Homework_15.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Hall> builder)
         {
-            throw new NotImplementedException();
+            builder.HasData(new Hall(1, "12G", 1),
+                new Hall(2, "12G", 3),
+                new Hall(3, "9F", 2),
+                new Hall(4, "12G", 3),
+                new Hall(5, "2J", 4),
+                new Hall(6, "13D", 4),
+                new Hall(7, "9F", 1));
         }
     }
 }

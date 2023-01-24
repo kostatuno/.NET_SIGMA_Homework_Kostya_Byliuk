@@ -11,5 +11,12 @@ namespace Homework_15.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
+
+        public Cinema(int id, string name, string address)
+        {
+            Id = id;
+            Name = name;
+            Address = address;
+        }
     }
 }

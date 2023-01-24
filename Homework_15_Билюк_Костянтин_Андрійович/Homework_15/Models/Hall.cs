@@ -16,5 +16,12 @@ namespace Homework_15.Models
 
         public int CinemaId { get; set; }
         public Cinema? Cinema { get; set; }
+
+        public Hall(int id, string name, int cinemaId)
+        {
+            Id = id;
+            Name = name;
+            CinemaId = cinemaId;
+        }
     }
 }

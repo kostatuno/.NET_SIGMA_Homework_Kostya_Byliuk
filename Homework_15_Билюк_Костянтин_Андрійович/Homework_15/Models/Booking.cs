@@ -17,5 +17,14 @@ namespace Homework_15.Models
 
         public int ShowtimeId { get; set; }
         public Showtime? Showtime { get; set; }
+
+        public Booking(int id, decimal price, int placeNumber, int userId, int showtimeId)
+        {
+            Id = id;
+            Price = price;
+            PlaceNumber = placeNumber;
+            UserId = userId;
+            ShowtimeId = showtimeId;
+        }
     }
 }

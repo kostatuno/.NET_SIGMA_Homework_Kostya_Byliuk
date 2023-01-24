@@ -18,10 +18,6 @@ namespace Homework_15.Models
         [MaxLength(20)] 
         public string? PhoneNumber { get; set; }
 
-        public User()
-        {
-        }
-
         public User(int id, string? firstName, string? lastName, string? phoneNumber)
         {
             Id = id;

@@ -13,7 +13,12 @@ namespace Homework_15.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Showtime> builder)
         {
-            throw new NotImplementedException();
+            builder.HasData(new Showtime(1, new DateTime(2023, 01, 26, 14, 30, 0), 1),
+                new Showtime(2, new DateTime(2023, 01, 26, 18, 30, 0), 3),
+                new Showtime(3, new DateTime(2023, 01, 28, 12, 30, 0), 3),
+                new Showtime(4, new DateTime(2023, 01, 29, 14, 30, 0), 2),
+                new Showtime(5, new DateTime(2023, 01, 29, 16, 30, 0), 1),
+                new Showtime(6, new DateTime(2023, 01, 30, 13, 30, 0), 4));
         }
     }
 }
